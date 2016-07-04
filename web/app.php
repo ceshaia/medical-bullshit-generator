@@ -6,7 +6,7 @@ use Einenlum\MedicalBullshitGenerator\Generator;
 use Silex\Application;
 use Silex\Provider\TwigServiceProvider;
 
-$app = new Application(['debug' => true]);
+$app = new Application();
 
 $app->register(new TwigServiceProvider(), [
     'twig.path' => __DIR__.'/../src/views',
