@@ -1,5 +1,5 @@
 {
-    "name": "einenlum/bullshit-generator",
+    "name": "einenlum/medical-bullshit-generator",
     "description": "A generator of french bullshit title for fake healers.",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Einenlum\\BullshitGenerator\\": "src/"
+            "Einenlum\\MedicalBullshitGenerator\\": "src/"
         }
     },
     "require": {

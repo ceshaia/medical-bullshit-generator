@@ -2,7 +2,7 @@
 
 require_once(__DIR__.'/../vendor/autoload.php');
 
-use Einenlum\BullshitGenerator\Generator;
+use Einenlum\MedicalBullshitGenerator\Generator;
 use Silex\Application;
 use Silex\Provider\TwigServiceProvider;
 

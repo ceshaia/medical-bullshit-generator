@@ -1,6 +1,6 @@
 <?php
 
-namespace Einenlum\BullshitGenerator;
+namespace Einenlum\MedicalBullshitGenerator;
 
 use Faker\Factory;
 
