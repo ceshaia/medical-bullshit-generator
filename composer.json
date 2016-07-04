@@ -1,0 +1,20 @@
+{
+    "name": "einenlum/bullshit-generator",
+    "description": "A generator of french bullshit title for fake healers.",
+    "authors": [
+        {
+            "name": "Einenlum",
+            "email": "einenlum@vmail.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Einenlum\\BullshitGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.24",
+        "fzaninotto/faker": "^1.6"
+    }
+}
