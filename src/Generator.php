@@ -21,13 +21,13 @@ class Generator
         shuffle($prefixes);
         shuffle($suffixes);
 
-        $domain = static::getDomain($domainProbability);
-
         $title = sprintf('%s%s', current($prefixes), current($suffixes));
 
         if (in_array($title, Dictionary::getExcludedWords())) {
-            return static::generate();
+            return static::generateTitle();
         }
+
+        $domain = static::getDomain($domainProbability);
 
         if (null !== $domain) {
             $title = sprintf('%s %s', $title, $domain);
@@ -43,7 +43,7 @@ class Generator
             return;
         }
 
-        $domains  = Dictionary::getDomains();
+        $domains = Dictionary::getDomains();
         shuffle($domains);
 
         return current($domains);
