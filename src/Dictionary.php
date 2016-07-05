@@ -7,7 +7,7 @@ class Dictionary
     public static function getPrefixes()
     {
         return [
-            'osthéo',
+            'ostéo',
             'kinésio',
             'naturo',
             'géo',
@@ -50,7 +50,7 @@ class Dictionary
     {
         return [
             'psychologue',
-            'géologue'
+            'géologue',
         ];
     }
 }
